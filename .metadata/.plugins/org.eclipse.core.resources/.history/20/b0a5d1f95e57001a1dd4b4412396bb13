@@ -1,0 +1,5 @@
+package com.evalueserve.serialization;
+
+public class Address {
+
+}

@@ -1,0 +1,9 @@
+package com.evalueserve.generics;
+
+public class MyClientTest2 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

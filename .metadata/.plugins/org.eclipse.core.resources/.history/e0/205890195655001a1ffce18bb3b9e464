@@ -1,0 +1,9 @@
+package com.evalueserve.typeInference;
+
+public class TypeInferenceTest {
+
+	public static void main(String[] args) {
+
+	}
+
+}

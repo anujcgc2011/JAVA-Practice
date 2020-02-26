@@ -1,0 +1,11 @@
+package com.evalueserve.generics;
+
+public class GenericInterfaceImplClass1<E> implements GenericInterface<E> {
+
+	@Override
+	public void setValue(E e) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

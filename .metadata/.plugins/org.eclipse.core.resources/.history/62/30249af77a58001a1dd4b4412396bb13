@@ -1,0 +1,22 @@
+package com.evalueserve.generics;
+
+public class TestClientForGenericMethodImplInsideClass {
+
+	public static void main(String[] args) {
+
+		Integer arr[] = {12,3,4};
+		GenericMethodInsideGenericClass<Integer> myGenClass = new GenericMethodInsideGenericClass<Integer>(arr);
+		Integer[] arr2 = myGenClass.getArr();
+		
+		myGenClass.printElements(arr2);
+		
+		System.out.println("________________________");
+		String arr3[] = {"A","B"};
+		GenericMethodInsideGenericClass<Integer> myGenClass = new GenericMethodInsideGenericClass<Integer>(arr);
+		Integer[] arr2 = myGenClass.getArr();
+		
+		myGenClass.printElements(arr2);
+		
+	}
+
+}

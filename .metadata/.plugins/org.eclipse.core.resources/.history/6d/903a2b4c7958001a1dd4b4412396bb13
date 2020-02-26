@@ -1,0 +1,10 @@
+package com.evalueserve.generics;
+
+public class TestClientForGenericInterfaceImplClass {
+
+	public static void main(String[] args) {
+		GenericInterfaceImplClass1<E> gimpl = new GenericInterfaceImplClass1<>();
+		
+	}
+
+}

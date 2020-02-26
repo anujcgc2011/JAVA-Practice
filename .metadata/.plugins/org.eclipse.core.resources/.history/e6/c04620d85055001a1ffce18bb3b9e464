@@ -1,0 +1,15 @@
+package com.evalueserve.sortingUsingComparatorUsingLambdas;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TestClient {
+
+	public static void main(String[] args) {
+		List<EmployeeModal> empList = new ArrayList<>();
+		empList.add(new EmployeeModal("Anuj", "a@gmail.com"));
+		empList.add(new EmployeeModal("BBB", "a@gmail.com"));
+		empList.add(new EmployeeModal("CCC", "a@gmail.com"));
+	}
+
+}

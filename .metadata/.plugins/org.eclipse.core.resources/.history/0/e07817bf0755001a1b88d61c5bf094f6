@@ -1,0 +1,16 @@
+package com.evalueserve.iterateMapUsingForEach;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class IterateMapUsingForEach {
+
+	public static void main(String[] args) {
+		Map<Integer,Employee> employeeMap = new HashMap<>();
+		employeeMap.put(1, new Employee("ANUJ", ".com"));\
+		employeeMap.put(2, new Employee("AMAN", ".com"));
+		
+		
+	}
+
+}

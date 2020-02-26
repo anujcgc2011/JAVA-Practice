@@ -1,0 +1,5 @@
+package com.evalueserve.serializationWithInheritance;
+
+public class Employee {
+
+}

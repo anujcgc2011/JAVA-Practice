@@ -1,0 +1,18 @@
+package com.evalueserve.ExceptionHandling;
+
+import javax.management.RuntimeErrorException;
+
+public class ThrowExceptionDemo {
+
+	public static void main(String[] args) {
+		ThrowExceptionDemo throwExceptionDemo = new ThrowExceptionDemo();
+		throwExceptionDemo.display();
+	}
+	
+	private void display() {
+		try {
+			throw new RuntimeErrorException("RUNTIME EXCEPTION OCCURRED");
+		}
+	}
+
+}

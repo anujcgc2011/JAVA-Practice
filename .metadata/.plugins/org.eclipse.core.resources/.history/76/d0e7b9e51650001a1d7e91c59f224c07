@@ -1,0 +1,5 @@
+package ccom.evalueserve.customFunctionalInterface;
+
+public interface MyInterface1 {
+
+}

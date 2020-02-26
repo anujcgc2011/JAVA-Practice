@@ -1,0 +1,10 @@
+package com.evalueserve.closure;
+
+public class ClosureTestClient {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

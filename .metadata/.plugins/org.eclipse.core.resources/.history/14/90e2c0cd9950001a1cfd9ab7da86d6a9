@@ -1,0 +1,12 @@
+package com.evalueserve.lambdaExpressionWithReturnValue;
+
+public class ClientTest {
+
+	public static void main(String[] args) {
+		MyInterface1 myInterface1 = (a,b) -> {
+			return a>b;
+			
+		};
+	}
+
+}

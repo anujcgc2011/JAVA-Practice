@@ -1,0 +1,22 @@
+package com.evalueserve.serialization;
+
+public class ClientTest {
+
+	public static void main(String[] args) {
+
+		String fileName = "employee.txt";
+		serializeObject(fileName);
+	}
+
+	private static void serializeObject(String fileName) {
+		Address address = new Address(1,"jam","jam1","JAMMU",180012);
+		Employee employee = new Employee(1,"Anuj",20,"anujcgc2011","test",address);
+		
+		try {
+			
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+}

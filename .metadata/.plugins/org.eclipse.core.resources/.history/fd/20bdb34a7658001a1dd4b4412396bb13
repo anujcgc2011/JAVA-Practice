@@ -1,0 +1,7 @@
+package com.evalueserve.generics;
+
+public class MyClientTest3 {
+
+	MyGeneric3<String, String> myGeneric3 = new MyGeneric3<Integer, String>(101, "s");
+	
+}

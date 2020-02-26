@@ -1,0 +1,10 @@
+package com.evalueserve.ExceptionHandling;
+
+public class ThrowExceptionDemo {
+
+	public static void main(String[] args) {
+		ThrowExceptionDemo throwExceptionDemo = new ThrowExceptionDemo();
+		throwExceptionDemo.display();
+	}
+
+}

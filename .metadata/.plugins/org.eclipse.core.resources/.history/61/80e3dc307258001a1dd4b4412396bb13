@@ -1,0 +1,5 @@
+package com.evalueserve.generics;
+
+public class MyGeneric3<K, V> {
+
+}

@@ -1,0 +1,28 @@
+package com.evalueserve.collections;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class ArrayListImplementation {
+
+	public static void main(String[] args) {
+		List<Integer> demoList = new ArrayList<>();
+		demoList.add(0);
+		demoList.add(1);
+		demoList.add(2);
+		demoList.add(3);
+		demoList.add(4);
+		
+		Iterator<Integer> demoListIterator = demoList.iterator();
+		while(demoListIterator.hasNext()) {
+			Integer n = demoListIterator.next();
+			System.out.println(n);
+			if(n == 5) {
+				//demoListIterator.remove();
+				demoList.add(10);
+			}
+		}
+	}
+
+}

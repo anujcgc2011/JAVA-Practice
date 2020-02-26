@@ -1,0 +1,5 @@
+package com.evalueserve.lambdaExpressionWithReturnValue;
+
+public interface MyInterface1 {
+
+}

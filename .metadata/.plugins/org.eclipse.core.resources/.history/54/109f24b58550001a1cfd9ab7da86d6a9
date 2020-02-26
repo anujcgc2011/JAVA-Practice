@@ -1,0 +1,13 @@
+package ccom.evalueserve.customFunctionalInterface;
+
+public class ClientTest {
+
+	public static void main(String[] args) {
+		MyInterface1 myInterface1 = () -> {
+			System.out.println("********");
+		};
+		
+		myInterface1.method1();
+	}
+
+}

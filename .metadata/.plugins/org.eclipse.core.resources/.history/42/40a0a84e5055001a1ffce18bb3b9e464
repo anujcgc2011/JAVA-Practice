@@ -1,0 +1,7 @@
+package com.evalueserve.sortingUsingComparatorUsingLambdas;
+
+import java.util.Comparator;
+
+public class EmployeeNameSorter implements Comparator<T> {
+
+}
